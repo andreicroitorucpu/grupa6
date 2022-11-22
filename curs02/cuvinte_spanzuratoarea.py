@@ -1,0 +1,1 @@
+cuvinte_de_ghicit = ["cuvant1", "cuvant2", "cuvant3"]
