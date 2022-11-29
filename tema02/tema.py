@@ -36,10 +36,10 @@ def function_ex2(index: int, totalSum: int, param_1: int, totalEvenSum: int, tot
         return totalSum, totalEvenSum, totalOddSum
 
 
-sum, sumPar, sumImpar = function_ex2(index, totalSum, param_1, totalEvenSum, totalOddSum)
+"""sum, sumPar, sumImpar = function_ex2(index, totalSum, param_1, totalEvenSum, totalOddSum)
 print("Suma totala: {}".format(str(sum)))
 print("Suma numere pare: {}".format(str(sumPar)))
-print("Suma numere impare: {}".format(str(sumImpar)))
+print("Suma numere impare: {}".format(str(sumImpar)))"""
 
 
 # 3
