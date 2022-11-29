@@ -11,6 +11,13 @@ def function_ex1(*args, **kwargs):
 
 
 # 2
+
+param_1 = int(input("Input: "))
+index = 0
+totalSum = 0
+totalOddSum = 0
+totalEvenSum = 0
+
 def function_ex2(index: int, totalSum: int, param_1: int, totalEvenSum: int, totalOddSum: int):
     myList = list(range(int(param_1) + 1))
     if index != param_1:
@@ -29,10 +36,10 @@ def function_ex2(index: int, totalSum: int, param_1: int, totalEvenSum: int, tot
         return totalSum, totalEvenSum, totalOddSum
 
 
-"""sum, sumPar, sumImpar = function_ex2(index, totalSum, param_1, totalEvenSum, totalOddSum)
+sum, sumPar, sumImpar = function_ex2(index, totalSum, param_1, totalEvenSum, totalOddSum)
 print("Suma totala: {}".format(str(sum)))
 print("Suma numere pare: {}".format(str(sumPar)))
-print("Suma numere impare: {}".format(str(sumImpar)))"""
+print("Suma numere impare: {}".format(str(sumImpar)))
 
 
 # 3
@@ -47,10 +54,5 @@ def function_ex3():
 # function_ex3()
 
 
-param_1 = int(input("Input: "))
-index = 0
-totalSum = 0
-totalOddSum = 0
-totalEvenSum = 0
 
 
